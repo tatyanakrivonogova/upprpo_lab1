@@ -1,0 +1,25 @@
+1<html>
+<head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body class="d-flex flex-column h-100">
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+<h3 class="mt-5">Welcome to the Vim fan club</h3>
+<p class="lead">We are currently closed because of haters who can't :q, so a login is now required</p>
+
+<form method="POST">
+<div class="row">
+<div class="input-group col-5 mb-2"><div class="input-group-prepend"><span class="input-group-text">Login:</span></div><input class="form-control" type="text" name="login"></div>
+</div>
+<div class="row">
+<div class="input-group col-5 mb-2"><div class="input-group-prepend"><span class="input-group-text">Password:</span></div><input class="form-control" type="password" name="password"></div>
+</div>
+<input class="btn btn-primary" type="submit" value="Submit">
+</form>
+
+Did you know that this page is also written in Vim btw?
+
+</body>
+</html>
